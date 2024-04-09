@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0; /* Certifique-se de que não há margens padrão */
+  padding: 0; /* Certifique-se de que não há preenchimento padrão */
+}
+
+/* 
+:root {
+  font-size: 62.5%;
+} */
+.link {
+  font-weight: bold;
+}
+nav {
+  display: flex;
+  width: 1280px;
+  height: 122px;
+  padding: 40px 719px 40px 72px;
+  align-items: center;
+  flex-shrink: 0;
+  margin-bottom: 63px;
+}
+
+nav a {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 32px;
+  color: var(--Neutral-Colors-White, #FFF);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration:none;
+}
+
+nav a:last-child {
+  margin-right: 0; /* Remova a margem direita do último link para evitar espaço extra */
+}
+
+body {
+  background-image: url('./assets/mountains-universe-1.png');
+  background-size: 100%;
+  background-position: center center; /* Centraliza a imagem no corpo */
+  background-repeat: no-repeat; /* Evita que a imagem de fundo seja repetida */
+}

@@ -1,0 +1,55 @@
+@import url(/style.css);
+
+.content h1 {
+  color: #E1E1E6;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+}
+
+.content a {
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.link-home {
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center; /* Centraliza o conteúdo horizontalmente */
+  gap: 24px;
+  margin: auto; /* Centraliza verticalmente na página */
+  position: absolute; /* Para centralizar verticalmente */
+  top: 50%; /* Posiciona o elemento no centro vertical */
+  left: 50%; /* Posiciona o elemento no centro horizontal */
+  transform: translate(-50%, -50%); /* Ajusta a posição para o centro */
+}
+
+/* Estilo para o link dentro do conteúdo */
+.button {
+  text-decoration: none; /* Remove o sublinhado do link */
+  border-radius: 5px;
+  border: 2px solid #FFF;
+  padding: 12px 32px; /* Define o preenchimento superior e inferior e remove o preenchimento esquerdo e direito */
+  text-align: center; /* Centraliza o texto horizontalmente */;
+  margin-left: auto;
+  margin-right: auto;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: rgba(52, 152, 219, 0.5);
+}

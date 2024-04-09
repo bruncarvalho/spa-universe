@@ -1,0 +1,32 @@
+@import url(/style.css);
+
+.content-error {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: auto; /* Centraliza verticalmente na página */
+  position: absolute; /* Para centralizar verticalmente */
+  top: 50%; /* Posiciona o elemento no centro vertical */
+  left: 50%; /* Posiciona o elemento no centro horizontal */
+  transform: translate(-50%, -50%); /* Ajusta a posição para o centro */
+}
+
+.content-error h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: bold;
+}
+.content-error p {
+
+
+  text-align: center; /* Centraliza o conteúdo horizontalmente */
+
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  /* line-height: 24px; */
+}
