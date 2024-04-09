@@ -1,2 +1,2 @@
-# Ignorar diretórios específicos
-node_modules/
+node_modules
+.vscode
